@@ -1,0 +1,58 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:RBI-{###}",
+ "creation": "2025-08-28 10:40:57.162093",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "source",
+  "distance",
+  "column_break_fvvu",
+  "destination"
+ ],
+ "fields": [
+  {
+   "fieldname": "source",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Source ",
+   "reqd": 1
+  },
+  {
+   "description": "(in km)",
+   "fieldname": "distance",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Distance",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_fvvu",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "destination",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Destination",
+   "reqd": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2025-08-28 10:44:59.243464",
+ "modified_by": "Administrator",
+ "module": "Irfan Cabs",
+ "name": "Ride Booking items",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

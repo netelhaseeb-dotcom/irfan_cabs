@@ -1,0 +1,29 @@
+{% extends "templates/web.html" %}
+
+{% block page_content %}
+<h1>{{ title }}</h1>
+<p>Welcome to the vehicle home page!</p>
+<h2>Available Vehicles</h2>
+<ul>
+    {% for vehicle in vehicles %}
+        <li><a href="{{ vehicle.url }}">{{ vehicle.title }}</a></li>
+    {% endfor %}
+
+
+    <a class="btn btn-info" href="/book-a-ride">Book Now</a>
+</ul>
+
+<h2>Color: {{ doc.color }}</h2>
+
+{% if doc.vehicle_image %}
+    <h2>Vehicle Image</h2>
+    <img src="{{ doc.vehicle_image }}" alt="{{ doc.title }}" class="vehicle-image">
+{% else %}
+    <span>No image available for this vehicle.</span>
+{% endif %}
+
+
+
+{% endblock %}
+
+<!-- this is a sample default web page template -->

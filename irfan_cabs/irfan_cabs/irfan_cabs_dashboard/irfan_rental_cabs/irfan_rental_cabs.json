@@ -1,0 +1,31 @@
+{
+ "cards": [
+  {
+   "card": "My Dashboard"
+  },
+  {
+   "card": "My Dashboard"
+  },
+  {
+   "card": "Permited user permission"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Rentals",
+   "width": "Half"
+  }
+ ],
+ "creation": "2025-08-28 16:24:37.830645",
+ "dashboard_name": "Irfan Rental Cabs",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 1,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2025-09-04 15:42:08.504292",
+ "modified_by": "Administrator",
+ "module": "Irfan Cabs",
+ "name": "Irfan Rental Cabs",
+ "owner": "Administrator"
+}

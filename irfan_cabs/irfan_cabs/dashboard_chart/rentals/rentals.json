@@ -1,0 +1,38 @@
+{
+ "based_on": "modified",
+ "chart_name": "Rentals",
+ "chart_type": "Sum",
+ "color": "#d97575",
+ "creation": "2025-08-28 16:24:30.887492",
+ "currency": "PKR",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "document_type": "Driver",
+ "dynamic_filters_json": "[]",
+ "filters_json": "[[\"Driver\",\"name\",\"=\",\"DR-003\",false]]",
+ "group_by_type": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "modified": "2025-08-28 16:24:30.887492",
+ "modified_by": "Administrator",
+ "module": "Irfan Cabs",
+ "name": "Rentals",
+ "number_of_groups": 0,
+ "owner": "Administrator",
+ "parent_document_type": "",
+ "roles": [
+  {
+   "role": "Dashboard Manager"
+  }
+ ],
+ "show_values_over_chart": 1,
+ "source": "",
+ "time_interval": "Daily",
+ "timeseries": 1,
+ "timespan": "Last Week",
+ "type": "Line",
+ "use_report_chart": 0,
+ "value_based_on": "",
+ "y_axis": []
+}

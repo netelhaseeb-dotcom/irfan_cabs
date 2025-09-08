@@ -120,6 +120,12 @@ app_license = "mit"
 # permission_query_conditions = {
 # 	"Event": "frappe.desk.doctype.event.event.get_permission_query_conditions",
 # }
+
+# permission_query_conditions = {
+#     "Vehicle": "rentals.rentals.api.get_query_conditions_for_vehicle",
+# }
+
+
 #
 # has_permission = {
 # 	"Event": "frappe.desk.doctype.event.event.has_permission",
@@ -144,6 +150,16 @@ app_license = "mit"
 # 		"on_trash": "method"
 # 	}
 # }
+
+
+# doc_events = {
+#     "ToDo": {
+#         "before_insert": "rentals.api.throw_emoji"
+#     }
+# }
+
+
+
 
 # Scheduled Tasks
 # ---------------

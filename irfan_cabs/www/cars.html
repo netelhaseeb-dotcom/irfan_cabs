@@ -1,0 +1,42 @@
+{% extends "templates/web.html" %}
+
+{% block title %}Available Cars for Rent{% endblock %}
+
+{% block page_content %}
+<div class="container my-5">
+    <h1 class="text-center mb-4">🚗 Available Cars for Rent</h1>
+    <p>Your secret key is: {{ my_secret_key }} {{cars}}</p>
+
+
+    {% if cars %}
+        <div class="row">
+            {% for car in cars %}
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        {% if car.image %}
+                            <img src="{{ car.image }}" class="card-img-top" alt="{{ car.car_name }}">
+                        {% else %}
+                            <img src="https://d2nn1d293raok6.cloudfront.net/public/posts/71ff274699d1/Screenshot_28-4-2025_12754_www.dongfeng-global.com.jpeg" class="card-img-top" alt="Default Car Image">
+                        {% endif %}
+                        <div class="card-body">
+                            <h5 class="card-title">{{ car.car_name }}</h5>
+                            <p class="card-text">
+                                <strong>Brand:</strong> {{ car.brand }}<br>
+                                <strong>Seats:</strong> {{ car.seats }}<br>
+                                <strong>Price/Day:</strong> {{ car.price_per_day }} PKR
+                            </p>
+                        </div>
+                        <div class="card-footer text-center">
+                            <a href="/book-car?car={{ car.name }}" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    {% else %}
+        <div class="alert alert-warning text-center">
+            No cars available at the moment.
+        </div>
+    {% endif %}
+</div>
+{% endblock %}
