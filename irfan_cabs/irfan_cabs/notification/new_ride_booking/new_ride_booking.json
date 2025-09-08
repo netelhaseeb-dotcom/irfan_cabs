@@ -1,0 +1,33 @@
+{
+ "attach_print": 1,
+ "channel": "Email",
+ "condition": "doc.status == \"Pending\"\n",
+ "creation": "2025-08-29 12:06:12.190334",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Ride Booking",
+ "enabled": 1,
+ "event": "Submit",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "A new ride booking {{ doc.name }} has been submitted by {{ doc.customer_name }}.\n\nPickup: {{ doc.pickup_location }}\nDrop: {{ doc.drop_location }}\nStatus: {{ doc.status }}\n",
+ "message_type": "Markdown",
+ "modified": "2025-08-29 12:06:12.190334",
+ "modified_by": "Administrator",
+ "module": "Irfan Cabs",
+ "name": "New Ride Booking",
+ "owner": "Administrator",
+ "print_format": "Ride Booking Print Formate",
+ "recipients": [
+  {
+   "condition": "doc.status == \"Pending\"",
+   "receiver_by_document_field": "owner",
+   "receiver_by_role": "All"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 0,
+ "set_property_after_alert": "order",
+ "subject": "Ride Booking {{ doc.name }} Created"
+}

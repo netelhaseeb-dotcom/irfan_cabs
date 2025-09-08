@@ -1,0 +1,29 @@
+{
+ "add_total_row": 0,
+ "add_translate_data": 0,
+ "columns": [],
+ "creation": "2025-08-30 14:41:16.004756",
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{\"filters\":[],\"fields\":[[\"name\",\"Vehicle\"],[\"title\",\"Vehicle\"],[\"make\",\"Vehicle\"],[\"model\",\"Vehicle\"],[\"creation\",\"Vehicle\"],[\"color\",\"Vehicle\"],[\"insurance_expiry\",\"Vehicle\"],[\"licence_plate\",\"Vehicle\"]],\"order_by\":\"`tabVehicle`.`modified` asc\",\"add_totals_row\":0,\"page_length\":20,\"column_widths\":{\"name\":176,\"title\":201,\"make\":120,\"model\":85,\"creation\":120,\"color\":70,\"insurance_expiry\":125,\"licence_plate\":78},\"group_by\":null}",
+ "letterhead": null,
+ "modified": "2025-08-30 14:43:11.520861",
+ "modified_by": "Administrator",
+ "module": "Irfan Cabs",
+ "name": "Vehicle By Services Status",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Vehicle",
+ "report_name": "Vehicle By Services Status",
+ "report_type": "Report Builder",
+ "roles": [
+  {
+   "role": "System Manager"
+  }
+ ],
+ "timeout": 0
+}

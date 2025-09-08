@@ -1,0 +1,32 @@
+{
+ "attach_print": 1,
+ "channel": "Email",
+ "creation": "2025-08-29 18:31:38.140236",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Vehicle",
+ "enabled": 1,
+ "event": "Submit",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "<p>Add your message here</p>\n\n\n<a href=\"http://127.0.0.1:8004/app\" Click here to view </a>",
+ "message_type": "Markdown",
+ "modified": "2025-08-30 12:16:25.499747",
+ "modified_by": "Administrator",
+ "module": "Irfan Cabs",
+ "name": "Customer Notification",
+ "owner": "Administrator",
+ "print_format": "Vehicle Notification print",
+ "recipients": [
+  {
+   "receiver_by_document_field": "owner",
+   "receiver_by_role": "All"
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 1,
+ "sender": "",
+ "sender_email": "",
+ "subject": "New Vehicle submitted"
+}

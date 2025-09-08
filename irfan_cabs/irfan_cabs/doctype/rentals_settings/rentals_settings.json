@@ -1,0 +1,43 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2025-09-03 12:37:00.774514",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "standard_rate"
+ ],
+ "fields": [
+  {
+   "fieldname": "standard_rate",
+   "fieldtype": "Float",
+   "label": "Standard Rate",
+   "non_negative": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2025-09-04 10:49:35.977147",
+ "modified_by": "Administrator",
+ "module": "Irfan Cabs",
+ "name": "Rentals Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
